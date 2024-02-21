@@ -3,6 +3,7 @@ from lib import DataManipulation, DataReader, Utils, logger
 from pyspark.sql.functions import *
 from lib.logger import Log4j
 
+#This is the main function
 if __name__ == '__main__':
 
     if len(sys.argv) < 2:
